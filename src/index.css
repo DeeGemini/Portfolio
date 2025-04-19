@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900 transition-colors duration-300;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-500 hover:bg-primary-600 text-white focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary-500 hover:bg-secondary-600 text-white focus:ring-secondary-500;
+  }
+  
+  .btn-outline {
+    @apply btn border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 focus:ring-gray-300 dark:focus:ring-gray-700;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .input {
+    @apply w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100;
+  }
+  
+  .carousel-container {
+    @apply relative h-[400px] md:h-[500px];
+  }
+}
+
+.typing-cursor {
+  @apply inline-block w-[2px] h-[1em] bg-primary-500 ml-1 animate-pulse;
+}
+
+/* Carousel styles */
+.carousel {
+  perspective: 1000px;
+}
+
+.carousel-item {
+  @apply absolute top-0 left-0 w-full h-full transition-all duration-500 ease-in-out;
+}
+
+.carousel-item.active {
+  @apply z-10 opacity-100 scale-100;
+}
+
+.carousel-item.prev,
+.carousel-item.next {
+  @apply z-[5] opacity-70 scale-90;
+}
+
+.carousel-item.hidden {
+  @apply z-0 opacity-0 scale-[0.80];
+}

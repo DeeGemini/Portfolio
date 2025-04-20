@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, Briefcase, GraduationCap, Award } from 'lucide-react';
-import resumePdf from '../assets/documents/resume.pdf';
+import resumePdf from '../assets/documents/Nontuthuzelo Resume-1.pdf';
 
 const Resume: React.FC = () => {
   return (

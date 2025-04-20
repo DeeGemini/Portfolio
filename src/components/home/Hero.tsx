@@ -2,8 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import TypedText from '../shared/TypedText';
-import profileImage from '../../assets/images/profile.png';
-import logo from '../../assets/logos/logo.svg';
+import profileImage from '../../assets/images/propic.png';
 
 const Hero: React.FC = () => {
   const typedStrings = [

@@ -16,7 +16,7 @@ const Resume: React.FC = () => {
           >
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">My Resume</h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
-              A summary of my education, work experience, and skills.
+              A summary of my Academics, Work Experience, and Certifications.
             </p>
             <div className="h-1 w-20 bg-primary-500 mx-auto mt-4 rounded-full"></div>
           </motion.div>
@@ -55,22 +55,26 @@ const Resume: React.FC = () => {
                 {/* Experience Item 1 */}
                 <div className="relative pl-8 border-l-2 border-primary-500 dark:border-primary-400">
                   <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary-500 dark:bg-primary-400"></div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Software Engineer Intern</h3>
-                  <p className="text-primary-600 dark:text-primary-400 font-medium">Tech Solutions Inc.</p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">June 2022 - August 2022</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Jr Technician</h3>
+                  <p className="text-primary-600 dark:text-primary-400 font-medium">CCI-United Airlines Campain.</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">February 2022 - August 2022</p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Developed and maintained web applications using React and Node.js. Collaborated with senior developers on feature implementation and bug fixes.
+                    Participated in research projects, gathering data and information which helped identify effective solutions for challanges faced.
+                    Collaborated with team members to develop and implement new strategies, and to foster productive environment ensuring everyone's contributions were valued.
                   </p>
                 </div>
 
                 {/* Experience Item 2 */}
                 <div className="relative pl-8 border-l-2 border-primary-500 dark:border-primary-400">
                   <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary-500 dark:bg-primary-400"></div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Freelance Web Developer</h3>
-                  <p className="text-primary-600 dark:text-primary-400 font-medium">Self-employed</p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">January 2022 - Present</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Customer Service Representative</h3>
+                  <p className="text-primary-600 dark:text-primary-400 font-medium">CCI Call Center</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">June 2020 - April 2021</p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Design and develop responsive websites for small businesses. Implement custom solutions based on client requirements.
+                    Provided tailored advice and assistance to customers over the phone regarding various services and products.
+                    Handled customer inquiries and complaints with professionalism and empathy, ensuring a positive experience.
+                    Collaborated with team members to improve service delivery and customer satisfaction.
+                    Developed strong communication and problem-solving skills while working in a fast-paced environment.
                   </p>
                 </div>
               </div>

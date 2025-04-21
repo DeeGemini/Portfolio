@@ -97,22 +97,22 @@ const Resume: React.FC = () => {
                 {/* Education Item 1 */}
                 <div className="relative pl-8 border-l-2 border-secondary-500 dark:border-secondary-400">
                   <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-secondary-500 dark:bg-secondary-400"></div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">BSc in Computer Science</h3>
-                  <p className="text-secondary-600 dark:text-secondary-400 font-medium">University of Durban</p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">2019 - 2023</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Software Engineering</h3>
+                  <p className="text-secondary-600 dark:text-secondary-400 font-medium">ALX Africa</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">2023 - 2024</p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Graduated with honors. Specialized in software engineering and web development.
+                    Graduated with NQL6. Specialized in software engineering and web development.
                   </p>
                 </div>
 
                 {/* Education Item 2 */}
                 <div className="relative pl-8 border-l-2 border-secondary-500 dark:border-secondary-400">
                   <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-secondary-500 dark:bg-secondary-400"></div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Web Development Bootcamp</h3>
-                  <p className="text-secondary-600 dark:text-secondary-400 font-medium">CodeCamp Academy</p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">Summer 2022</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">AI Starter Kit</h3>
+                  <p className="text-secondary-600 dark:text-secondary-400 font-medium">ALX Africa</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">January - March 2025</p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Intensive 12-week bootcamp focused on full-stack web development using MERN stack.
+                    Intensive 3-months AI foundamentals focused variety of AI tools for image, video, wireframe creation and full-stack web applications.
                   </p>
                 </div>
               </div>
@@ -136,23 +136,16 @@ const Resume: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Certification 1 */}
               <div className="card p-6 hover:border-accent-500 hover:border-2 transition-all duration-300">
-                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Front-End Web Development</h3>
-                <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">freeCodeCamp</p>
-                <p className="text-gray-500 dark:text-gray-400 text-sm">Issued: January 2023</p>
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Software Engineering | Backend</h3>
+                <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">ALX Africa</p>
+                <p className="text-gray-500 dark:text-gray-400 text-sm">Issued: November 2024</p>
               </div>
 
               {/* Certification 2 */}
               <div className="card p-6 hover:border-accent-500 hover:border-2 transition-all duration-300">
-                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">JavaScript Algorithms and Data Structures</h3>
-                <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">freeCodeCamp</p>
-                <p className="text-gray-500 dark:text-gray-400 text-sm">Issued: March 2023</p>
-              </div>
-
-              {/* Certification 3 */}
-              <div className="card p-6 hover:border-accent-500 hover:border-2 transition-all duration-300">
-                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Responsive Web Design</h3>
-                <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">freeCodeCamp</p>
-                <p className="text-gray-500 dark:text-gray-400 text-sm">Issued: November 2022</p>
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">AI Starter Kit</h3>
+                <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">ALX Africa</p>
+                <p className="text-gray-500 dark:text-gray-400 text-sm">Issued: March 2025</p>
               </div>
             </div>
           </motion.div>

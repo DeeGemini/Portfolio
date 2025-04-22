@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
     id: 4,
     title: "The Death of COBOL",
     description: "A retrospective on the decline of COBOL and its impact on the programming landscape. What does it mean for legacy systems?",
-    image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "December 6, 2024",
     readingTime: "4 min read",
     url: "https://deegemini.hashnode.dev/the-death-of-cobol"
@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
     id: 5,
     title: "The First Programmer Was a Woman",
     description: "A look at Ada Lovelace's contributions to computing and how her legacy continues to inspire developers today.",
-    image: "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     date: "November 08, 2024",
     readingTime: "4 min read",
     url: "https://deegemini.hashnode.dev/the-first-programmer-was-a-woman"

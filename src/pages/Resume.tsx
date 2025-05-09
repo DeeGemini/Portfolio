@@ -97,6 +97,17 @@ const Resume: React.FC = () => {
                 {/* Education Item 1 */}
                 <div className="relative pl-8 border-l-2 border-secondary-500 dark:border-secondary-400">
                   <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-secondary-500 dark:bg-secondary-400"></div>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Python 3 Developer</h3>
+                  <p className="text-secondary-600 dark:text-secondary-400 font-medium">Programming Hub</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">2023</p>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Graduated with 3-months Python 3 Certification. Gained proficiency in Python programming, data structures, and algorithms.
+                  </p>
+                </div>
+
+                {/* Education Item 2 */}
+                <div className="relative pl-8 border-l-2 border-secondary-500 dark:border-secondary-400">
+                  <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-secondary-500 dark:bg-secondary-400"></div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">Software Engineering</h3>
                   <p className="text-secondary-600 dark:text-secondary-400 font-medium">ALX Africa</p>
                   <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">2023 - 2024</p>
@@ -105,7 +116,7 @@ const Resume: React.FC = () => {
                   </p>
                 </div>
 
-                {/* Education Item 2 */}
+                {/* Education Item 3 */}
                 <div className="relative pl-8 border-l-2 border-secondary-500 dark:border-secondary-400">
                   <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-secondary-500 dark:bg-secondary-400"></div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">AI Starter Kit</h3>
@@ -136,12 +147,19 @@ const Resume: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Certification 1 */}
               <div className="card p-6 hover:border-accent-500 hover:border-2 transition-all duration-300">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Python 3 Certification Course</h3>
+                <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">Programming Hub</p>
+                <p className="text-gray-500 dark:text-gray-400 text-sm">Issued: June 2023</p>
+              </div>
+
+              {/* Certification 2 */}
+              <div className="card p-6 hover:border-accent-500 hover:border-2 transition-all duration-300">
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Software Engineering | Backend</h3>
                 <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">ALX Africa</p>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">Issued: November 2024</p>
               </div>
 
-              {/* Certification 2 */}
+              {/* Certification 3 */}
               <div className="card p-6 hover:border-accent-500 hover:border-2 transition-all duration-300">
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">AI Starter Kit</h3>
                 <p className="text-accent-600 dark:text-accent-400 font-medium mb-1">ALX Africa</p>
